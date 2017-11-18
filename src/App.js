@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import FetchExample from './sections/fetch-example'
+// import FetchExample from './sections/fetch-example'
+import ParentComponent from './sections/live-cicle/componentDidMount'
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <FetchExample />
+        <ParentComponent />
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import FetchExample from './sections/fetch-example'
-import Counter from './sections/live-cicle/componentWillUpdate'
+import Counter from './sections/live-cicle/componentDidUpdate'
 
 class App extends Component {
   render () {

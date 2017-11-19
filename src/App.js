@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 // import FetchExample from './sections/fetch-example'
-import ParentComponent from './sections/live-cicle/componenWillReceiveProps'
+import Counter from './sections/live-cicle/componentWillUpdate'
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <ParentComponent />
+        <Counter />
       </div>
     );
   }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 // import FetchExample from './sections/fetch-example'
-import Counter from './sections/live-cicle/componentDidUpdate'
+import ScrollerComponent from './sections/live-cicle/componentWillUnmount'
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <Counter />
+        <ScrollerComponent />
       </div>
     );
   }
